@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"target": "es2017",
+		"module": "commonjs",
+		"outDir": "./dist",
+		"removeComments": true,
+		"strict": true,
+		"strictPropertyInitialization": false,
+		"baseUrl": "./src",
+		"paths": {
+			"@config/*": [
+				"config/*"
+			],
+			"@/*": [
+				"*"
+			]
+		},
+		"rootDirs": [
+			"src",
+			"tests"
+		],
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true
+	},
+	"include": [
+		"src",
+		"src/*/.ts"
+	],
+	"exclude": []
+}
